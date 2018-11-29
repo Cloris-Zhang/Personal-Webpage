@@ -1,0 +1,72 @@
+/* Menu */
+html {
+  background-color:  #f2f2f2;
+}
+.menu {
+    overflow: hidden;
+    display: flex;
+}
+
+.menu a {
+    color: #000;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover, .exp-content a:hover{
+  background-color: #ddd;
+}
+
+#CZ {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 150%;
+}
+
+/* DropDown Menu */
+.expMenu {
+  float: left;
+  overflow: hidden;
+  background-color: #b3b3b3;
+}
+
+.expMenu .exp {
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  padding: 15px 17px;
+}
+
+
+.exp-content {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  width: 124px;
+}
+
+.exp-content a {
+  padding: 15px 17px;
+  text-decoration: none;
+  display: block;
+}
+
+.expMenu:hover .exp-content {
+  display: block;
+}
+
+.clubImg {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+}
